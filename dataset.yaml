@@ -1,0 +1,9 @@
+
+path: ../data  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val: images
+
+# Classes
+nc: 2  # number of classes
+names: [ 'awake',
+'drowsy' ]  # class names
